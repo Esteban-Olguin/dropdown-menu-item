@@ -1,0 +1,17 @@
+{
+  "name": "dropdown-menu",
+  "version": "1.0.0",
+  "description": "- Dropdown Menu Using HTML CSS & JavaScript - Contains a button that shows and hides the menu. - Along with an animation when showing the menu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
